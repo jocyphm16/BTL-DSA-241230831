@@ -30,19 +30,19 @@
     - push(x): Thêm phần tử, Vun lên (Sift-up). 
     - pop(): Xóa phần tử gốc (lớn nhất), Vun xuống (Push-down/Heapify)
     - top(): Xem giá trị lớn nhất. 
-    💡 Ứng dụng giải quyết bài toán
+💡 Ứng dụng giải quyết bài toán
     Áp dụng MaxHeap như một Hàng đợi ưu tiên (Priority Queue) để giải quyết 2 bài toán:
-  Bài toán 1: Sắp xếp dãy số giảm dần
+  - Bài toán 1: Sắp xếp dãy số giảm dần
     -  Đẩy lần lượt phần tử vào Heap, sau đó liên tục lấy phần tử top() ra in và pop() cho đến khi hết heap
-  Bài toán 2: Nối thanh kim loại (Chi phí tối thiểu)Mục tiêu: Giải bài toán tìm chi phí tối thiểu ($a+b$)
+  - Bài toán 2: Nối thanh kim loại (Chi phí tối thiểu)Mục tiêu: Giải bài toán tìm chi phí tối thiểu ($a+b$)
     - Giải thuật (Greedy): Luôn chọn 2 thanh ngắn nhất để nối Kỹ thuật đặc biệt: Vì bài toán yêu cầu tìm giá trị nhỏ nhất (MinHeap) nhưng ta chỉ có MaxHeap, nên ta sử dụng kỹ thuật lưu giá trị âm
     - Phần tử lớn nhất trong MaxHeap (ví dụ: -2) chính là phần tử có trị tuyệt đối nhỏ nhất (độ dài 2)Thực hiện thao tác pop()/push() liên tục với giá trị âm để duy trì cấu trúc. 
 
 📊 Độ phức tạp thuật toán (Time Complexity)
-Các thao tác push và pop có độ phức tạp là O(logn) 
-Toàn bộ các giải thuật ứng dụng (Sắp xếp, Tính chi phí) đều đạt độ phức tạp O(nlogn).
+  - Các thao tác push và pop có độ phức tạp là O(logn) 
+  - Toàn bộ các giải thuật ứng dụng (Sắp xếp, Tính chi phí) đều đạt độ phức tạp O(nlogn).
 
 🚀 HƯỚNG DẪN VẬN HÀNH CHƯƠNG TRÌNH
-    Biên dịch: Sử dụng trình biên dịch C++ để biên dịch file code. 
-    Khởi chạy: Chạy file thực thi (.exe, ./app). 
-    Thao tác: Chọn các chức năng trên menu console để trải nghiệm quản lý dãy nhà trọ.
+  - Biên dịch: Sử dụng trình biên dịch C++ để biên dịch file code.
+  - Khởi chạy: Chạy file thực thi (.exe, ./app).
+  - Thao tác: Chọn các chức năng trên menu console để trải nghiệm quản lý dãy nhà trọ.
