@@ -159,7 +159,7 @@ public:
     }
 
     void sapXepTheoTen() {
-        ds.sort(); // dùng operator< của SinhVien
+        ds.sort(); 
         cout << "Da sap xep danh sach sinh vien theo ten (A - Z).\n";
     }
 };
@@ -275,7 +275,7 @@ public:
             return;
         case 6:
             phong->sapXepTheoTen();
-            phong->xuatDanhSachSinhVien(); // in ra ngay kết quả sau khi sắp xếp
+            phong->xuatDanhSachSinhVien(); 
             return;
 
         }
